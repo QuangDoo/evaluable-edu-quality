@@ -5,4 +5,5 @@ export const path = {
   schoolDatabase: "/school-database",
   selfReview: "/self-review",
   system: "/system",
+  test: "/test",
 } as const;

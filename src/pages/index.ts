@@ -4,3 +4,4 @@ export * from "./SchoolDatabasePage";
 export * from "./SelfReviewPage";
 export * from "./SystemPage";
 export * from "./ReportPage";
+export * from "./TestPage";

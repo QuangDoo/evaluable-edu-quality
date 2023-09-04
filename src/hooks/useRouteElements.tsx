@@ -1,7 +1,7 @@
 import { useRoutes } from "react-router-dom";
 import { Layout } from "~/components";
 import { path } from "~/constants";
-import { HomePage, ReportPage } from "~/pages";
+import { HomePage, ReportPage, TestPage } from "~/pages";
 
 const useRouteElements = () => {
   const elements = useRoutes([
@@ -50,6 +50,14 @@ const useRouteElements = () => {
       element: (
         <Layout>
           <ReportPage />
+        </Layout>
+      ),
+    },
+    {
+      path: path.test,
+      element: (
+        <Layout>
+          <TestPage />
         </Layout>
       ),
     },

@@ -52,6 +52,14 @@ const Nav = () => {
       >
         BÁO CÁO
       </NavLink>{" "}
+      <NavLink
+        to={path.test}
+        className={({ isActive }) =>
+          isActive ? "border-b-2 border-primary-10" : ""
+        }
+      >
+        test
+      </NavLink>{" "}
     </div>
   );
 };
